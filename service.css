@@ -1,0 +1,89 @@
+/* Main body */
+.service{
+    border: 1px solid #eceff1;
+    background-color: #eceff1;
+    color: #000;
+}
+
+.service h1, .service h4{
+    text-align: center;
+}
+.row1{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+.row2{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.row3{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+img{
+    width: 100%;
+}
+.content{
+    padding-left: 4rem;
+    text-align: justify;
+}
+.content h4{
+    text-align: left;
+}
+.row1 .content .ul{
+    padding: 2rem;
+}
+.row2 .content ul{
+    padding: 2rem;
+    margin-right: 15rem;
+}
+.content ul li{
+    padding-bottom: 0.5rem;
+}
+.part{
+    /* border: 1px solid black; */
+    width: max-content;
+    display: flex;
+    justify-content:space-between;
+}
+.part a{
+    border: 2px solid tomato;
+    background-color: tomato;
+    color: #000;
+    text-decoration: none;
+    padding: 1rem;
+    align-content: center;
+    justify-content: center;
+    transition: 1s;
+    margin-top:6rem ;
+    margin-bottom:5rem;
+}
+.part a:hover{    
+    color: white;
+    border-radius: 5rem;
+    text-decoration: none;
+    background-color: tomato;
+    transition: 1s;
+}
+.desktop{
+    background-image: url("Image/bg1.jpg");
+    background-size:cover;
+    color: white;
+    padding: 15rem;
+    margin-bottom: 2rem;
+}
+.print{
+    background-image: url("Image/test.jpg");
+    background-size: cover;
+    color: white;
+    padding: 15rem;
+}
