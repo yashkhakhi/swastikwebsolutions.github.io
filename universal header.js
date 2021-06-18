@@ -43,7 +43,7 @@ class MyFooter extends HTMLElement{
         <div class="grid1">
             <a href="index.html"><img src="Image/SWS logo -2.png" alt="Swastik Web Solutions"></a>
             <br><br>
-            <a href="https://www.upwork.com/freelancers/~01220afa54de1d1213?viewMode=1" target="_blank"><img src="Image/up.png" alt="Upwork Profile" width="100%"></a>
+            <a href="https://www.upwork.com/freelancers/~01220afa54de1d1213?viewMode=1" target="_blank"><img src="Image/UP.png" alt="Upwork Profile" width="100%"></a>
             
         </div>
         <div class="grid2">
