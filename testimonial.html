@@ -18,6 +18,11 @@
     
     <!-- animationonScroll -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Google reviews -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/google-places.js "></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyA-yutL9bipQ-AGRw2uAvY_lwgTth-Tr8M"></script>
 
     <title>Swastik Web Solutions</title>
 </head>
@@ -52,6 +57,7 @@
                     </div>
                 </div>                
             </div>
+            <div id="google-reviews"></div>
         </section>
     </main>
 
@@ -76,6 +82,17 @@
 
     <!-- Universal header & Footer -->
     <script src="universal header.js"></script>
+    
+    <script>   
+        jQuery(document).ready(function() {      
+           $("#google-reviews").googlePlaces({         
+              placeId: 'ChIJK7sQAdF_zQQRn0loPGSxsdY',         
+              render: ['reviews'],         
+              min_rating: 5,         
+              max_rows: 0      
+            });   
+        });
+    </script>
 
 </body>
 </html>
