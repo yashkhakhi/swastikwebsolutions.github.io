@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" href="universal.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0b6056d7ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/font-awesome">   
+
+    <!-- animationonScroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Swastik Web Solutions</title>
+</head>
+<body>
+
+    <!-- header -->
+    <my-header></my-header>
+
+    <main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
+        <section id="service" class="service">
+            <div class="text" data-aos="zoom-in">
+                <h1>Services</h1>
+                <h4>We provide wide range of <span style="color: tomato;">Business Supporting Services</span> that can lead customers to your business.</h4>
+            </div>
+            <div class="row1">
+                <div class="img" data-aos="fade-right" data-aos-delay="1000">
+                    <img src="Image/1.png" alt="Web Developing & Hosting" title="Web Developing & Hosting">
+                </div>
+                <div class="content" data-aos="fade-left" data-aos-delay="1500">
+                    <h3>Website Development and Hosting</h3>
+                    <div class="hl"></div>
+                    <br>
+                    <h4>We can help you to take your business online as per your requirements with attaractive design that can lead customes
+                        to your business. We are experienced team wich can build ultimate website of your desired using latest developing technology.
+                    </h4>
+                    <h4>We provide following services.. [<span><a href="service1.html" style="color: tomato;">Know more</a></span>]</h4>                        
+                    <div class="row">
+                        
+                        <ul class="col-md-6">                            
+                            <li>Website Development (i.e. Static & Dynamic)</li>
+                            <li>Domain Purchasing</li>
+                            <li>Website Hosting</li>                                                   
+                        </ul>
+                        
+                        <ul class="col-md-6">                            
+                            <li>Website Maintanance & Updation</li>
+                            <li>SEO report for your current website</li>                       
+                            <li>Live Monitoring of Website performance</li>                                             
+                        </ul>
+                                                   
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row2">               
+                <div class="content" data-aos="fade-right" data-aos-delay="1000">
+                    <h3>Business Branding</h3>
+                    <div class="hl"></div>
+                    <br>
+                    <h4>We can help you to manage your your brand digitally effectively on different platforms.
+                    </h4>
+                    <h4>We provide following services.. [<span><a href="service2.html" style="color: tomato;">Know more</a></span>]
+                        <br> <br>
+                        <div class="part">
+                            <ul>
+                                <li>Graphics Designing</li>
+                                <li>Advertising</li>
+                                <li>Branding</li>
+                                <li>Social Media Marketing</li>                            
+                                <li>Printing work</li>                            
+                            </ul>
+                            <a href="Image/portfolio.pdf" type="button" download><h4> <i class="fas fa-download"></i> Download Portfolio</h4></a>
+                        </div>
+                    </h4>
+                </div>
+                <div class="img" data-aos="fade-left" data-aos-delay="1500">
+                    <img src="Image/2.png" alt="Business Branding" title="Business Branding"> 
+                </div>
+            </div>
+            <div class="row" data-aos="fade-right" data-aos-delay="1000" id="row">
+                
+                <div class="col-md-6">
+                    <h3>Custom Desktop Application</h3>
+                    <div class="hl"></div>
+                    <img src="Image/DA1.png" alt="Custome Desktop Application Development">
+                    
+                    <div class="content">
+                        <h4>we can helip you to build your own personalize desktop application which can ease your business data management.
+                            We create custom desktop applications, craft hardware or operating system-specific desktop apps, as well as standalone or 
+                            backend-enabled software.
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Offset Printing Store</h3>
+                    <div class="hl"></div>
+                    <br>
+                    <img src="Image/test.jpg" alt="">
+                    <div class="content">
+                        <h4>We provide service of all type of business printing for marketing and advertising.</h4>
+                        <ul>
+                            <li><b>Offset Printing Services</b></li>
+                            <li><b>Digital Printing Services</b></li>
+                        </ul>                       
+                    </div>
+                </div>
+            </div>          
+        </section>
+    </main>
+
+    <!-- footer -->
+    <my-footer></my-footer>
+
+
+    <!-- scrollback to top -->
+    <script src="JavaScript/scrollbacktotop.js"></script>
+
+    <!-- mobile view -->
+    <script src="JavaScript/app.js"></script>
+
+    <!-- animationonScroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease',
+            duration: 3000,            
+        });
+    </script>
+
+    <!-- Universal header & Footer -->
+    <script src="universal header.js"></script>
+
+</body>
+</html>
