@@ -1,0 +1,99 @@
+/* main body */
+.about{
+    border: 0.1px solid #eceff1;
+    background-color: #eceff1;
+    color: #000;
+    font-family: 'Saira', sans-serif;
+}
+.about h1{
+    text-align: center;
+}
+#about .team{    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+    margin:1rem;
+    padding: 20px;
+}
+#about .team img{
+    width: 100%;
+}
+#about .content{    
+    padding-top: 5rem;
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;    
+}
+#about .team a{
+    border: 2px solid tomato;
+    color: #000;
+    text-decoration: none;
+    padding: 1rem;
+    transition: 1s;
+}
+#about .team a:hover{
+    border: 2px solid white;
+    color: white;
+    border-radius: 5rem;
+    text-decoration: none;
+    background-color: tomato;
+    transition: 1s;
+}
+
+.container i{
+    font-size: 4rem;
+    color: tomato;
+}
+.technology-mobile{
+    display: none;
+}
+.container .recent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:2rem;
+    align-content: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 768px){
+    .about h2{
+        font-size: 2rem;
+    }
+    #about .team{  
+        /* border: 1px solid black;   */
+        display: block;
+        margin-right:1rem;
+        margin-left:1rem;
+        padding: 0;
+    }
+    #about .content{    
+        padding-top: 1rem;
+        text-align: justify;
+        padding-left: 1rem;
+        padding-right: 1rem;    
+    }
+    .about h1{
+        font-size: 3rem;
+    }
+    .about h3{
+        font-size: 2.15rem;
+    }
+    .about h4{
+        font-size: 1.75rem;
+    }
+    .container i{
+        font-size: 3rem;
+        color: tomato;
+    }
+    .technology-Desktop{
+        display: none;
+    }
+    .technology-mobile{
+        display:block;
+    }
+    .container .recent{
+        display:block;
+        
+    }
+}
